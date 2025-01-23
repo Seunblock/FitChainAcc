@@ -133,3 +133,14 @@ Recommended test scenarios:
 3. Voting mechanism
 4. Reward distribution
 5. Edge cases and error handling
+
+## Project Structure
+
+time-locked-accountability/
+├── contracts/
+│   ├── stake-pool.clar          # Main stake management
+│   ├── milestone-manager.clar   # Milestone tracking
+│   ├── reputation-system.clar   # Reputation scoring
+│   └── group-manager.clar       # Group management
+├── tests/
+└── README.md
