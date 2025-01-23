@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.milestone-manager]
+path = 'contracts/milestone-manager.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.stake-pool]
 path = 'contracts/stake-pool.clar'
 clarity_version = 2
